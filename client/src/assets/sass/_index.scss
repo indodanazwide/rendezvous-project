@@ -1,0 +1,39 @@
+$white: #EEEDE7;
+$navy: #1D1F33;
+$green: #7DB95B;
+$purple: #9A669B;
+
+$font-family: "Poppins";
+$font-weight: 500;
+$font-weight-bold: 700;
+$font-weight-semibold: 600;
+$font-heading: 4em;
+$font-subheading: 2.5em;
+$font-p: 1.2em;
+$font-color-primary: $navy;
+$font-color-secondary: $white;
+
+$laptop-wd: 1200px;
+
+li {
+    list-style: none;
+}
+
+a {
+    color: $font-color-primary;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: $font-weight-bold;
+    font-size: $font-heading;
+    color: $font-color-primary;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-weight: $font-weight;
+    font-size: $font-p;
+    margin-block: 1rem;
+}
